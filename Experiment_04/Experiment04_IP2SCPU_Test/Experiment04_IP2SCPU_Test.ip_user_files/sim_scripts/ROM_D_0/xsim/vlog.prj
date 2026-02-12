@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../Experiment04_IP2SCPU_Test.gen/sources_1/ip/ROM_D_0/sim/ROM_D_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

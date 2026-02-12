@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Exper_Mul32.srcs/sources_1/new/Mul32.v" \
+"../../../../Exper_Mul32.srcs/sim_1/new/Mul32_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

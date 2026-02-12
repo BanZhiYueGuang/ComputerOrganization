@@ -1,0 +1,268 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Oct 23 16:56:35 2025
+# Process ID         : 34236
+# Current directory  : D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.runs/synth_1
+# Command line       : vivado.exe -log Mul32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mul32.tcl
+# Log file           : D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.runs/synth_1/Mul32.vds
+# Journal file       : D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-6I7OJEUU
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13980HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 16779 MB
+# Swap memory        : 3758 MB
+# Total Virtual      : 20537 MB
+# Available Virtual  : 7391 MB
+#-----------------------------------------------------------
+source Mul32.tcl -notrace
+Command: synth_design -top Mul32 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25628
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 845.633 ; gain = 475.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Mul32' [D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.srcs/sources_1/new/Mul32.v:23]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.srcs/sources_1/new/Mul32.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'Mul32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.srcs/sources_1/new/Mul32.v:23]
+WARNING: [Synth 8-7129] Port multiplicand[31] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[30] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[29] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[28] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[27] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[26] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[25] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[24] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[23] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[22] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[21] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[20] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[19] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[18] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[17] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[16] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[15] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[14] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[13] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[12] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[11] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[10] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[9] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[8] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[7] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[6] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[5] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[4] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[3] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[2] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[1] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[0] in module Mul32 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 950.566 ; gain = 580.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 950.566 ; gain = 580.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 950.566 ; gain = 580.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 950.566 ; gain = 580.883
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               65 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   65 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port multiplicand[31] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[30] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[29] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[28] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[27] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[26] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[25] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[24] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[23] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[22] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[21] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[20] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[19] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[18] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[17] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[16] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[15] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[14] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[13] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[12] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[11] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[10] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[9] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[8] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[7] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[6] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[5] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[4] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[3] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[2] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[1] in module Mul32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port multiplicand[0] in module Mul32 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:21 . Memory (MB): peak = 1127.195 ; gain = 757.512
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:21 . Memory (MB): peak = 1142.016 ; gain = 772.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:21 . Memory (MB): peak = 1142.016 ; gain = 772.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |     4|
+|4     |LUT3 |    32|
+|5     |LUT4 |     1|
+|6     |LUT5 |     1|
+|7     |LUT6 |     2|
+|8     |FDRE |    70|
+|9     |IBUF |    35|
+|10    |OBUF |    65|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   213|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 66 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1344.098 ; gain = 974.414
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1359.176 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1473.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a84c1ed0
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 66 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:26 . Memory (MB): peak = 1473.828 ; gain = 1106.086
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1473.828 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxData/ComputerOrganization/Experiment_03/Exper_Mul32/Exper_Mul32.runs/synth_1/Mul32.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Mul32_utilization_synth.rpt -pb Mul32_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 23 16:57:04 2025...

@@ -1,0 +1,292 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Oct 30 10:00:36 2025
+# Process ID         : 31088
+# Current directory  : D:/XilinxData/ComputerOrganization/Experiment_03/Experiment03_Div32/Experiment03_Div32.runs/synth_1
+# Command line       : vivado.exe -log Div32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Div32.tcl
+# Log file           : D:/XilinxData/ComputerOrganization/Experiment_03/Experiment03_Div32/Experiment03_Div32.runs/synth_1/Div32.vds
+# Journal file       : D:/XilinxData/ComputerOrganization/Experiment_03/Experiment03_Div32/Experiment03_Div32.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-6I7OJEUU
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13980HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 16779 MB
+# Swap memory        : 7035 MB
+# Total Virtual      : 23815 MB
+# Available Virtual  : 10921 MB
+#-----------------------------------------------------------
+source Div32.tcl -notrace
+Command: synth_design -top Div32 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29540
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 847.262 ; gain = 477.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Div32' [D:/XilinxData/ComputerOrganization/Experiment_03/Experiment03_Div32/Experiment03_Div32.srcs/sources_1/new/Div32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Div32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_03/Experiment03_Div32/Experiment03_Div32.srcs/sources_1/new/Div32.v:23]
+WARNING: [Synth 8-7129] Port divisor[31] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[30] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[29] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[28] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[27] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[26] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[25] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[24] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[23] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[22] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[21] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[20] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[19] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[18] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[17] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[16] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[15] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[14] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[13] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[12] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[11] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[10] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[9] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[8] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[7] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[6] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[5] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[4] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[3] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[2] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[1] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[0] in module Div32 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 952.141 ; gain = 582.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 952.141 ; gain = 582.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 952.141 ; gain = 582.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 952.141 ; gain = 582.863
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    6 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design Div32 has port remainder[31] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[30] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[29] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[28] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[27] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[26] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[25] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[24] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[23] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[22] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[21] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[20] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[19] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[18] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[17] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[16] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[15] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[14] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[13] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[12] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[11] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[10] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[9] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[8] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[7] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[6] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[5] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[4] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[3] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[2] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[1] driven by constant 0
+WARNING: [Synth 8-3917] design Div32 has port remainder[0] driven by constant 0
+WARNING: [Synth 8-7129] Port divisor[31] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[30] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[29] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[28] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[27] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[26] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[25] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[24] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[23] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[22] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[21] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[20] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[19] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[18] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[17] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[16] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[15] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[14] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[13] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[12] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[11] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[10] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[9] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[8] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[7] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[6] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[5] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[4] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[3] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[2] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[1] in module Div32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port divisor[0] in module Div32 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:21 . Memory (MB): peak = 1133.754 ; gain = 764.477
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:21 . Memory (MB): peak = 1148.551 ; gain = 779.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 1148.551 ; gain = 779.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |FDRE |    34|
+|4     |IBUF |    35|
+|5     |OBUF |    65|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   136|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 97 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1350.453 ; gain = 981.176
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1365.504 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1477.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b820667a
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 97 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:27 . Memory (MB): peak = 1477.102 ; gain = 1110.809
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1477.102 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxData/ComputerOrganization/Experiment_03/Experiment03_Div32/Experiment03_Div32.runs/synth_1/Div32.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Div32_utilization_synth.rpt -pb Div32_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 30 10:01:05 2025...

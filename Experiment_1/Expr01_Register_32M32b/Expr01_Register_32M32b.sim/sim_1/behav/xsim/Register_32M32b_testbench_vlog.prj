@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Expr01_Register_32M32b.srcs/sources_1/new/Register_32M32b.v" \
+"../../../../Expr01_Register_32M32b.srcs/sim_1/new/Register_32M32b_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

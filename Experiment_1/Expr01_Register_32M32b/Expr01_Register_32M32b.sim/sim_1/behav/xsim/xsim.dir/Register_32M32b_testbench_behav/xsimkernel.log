@@ -1,0 +1,7 @@
+Running: xsim.dir/Register_32M32b_testbench_behav/xsimk.exe -simmode gui -wdb Register_32M32b_testbench_behav.wdb -simrunnum 0 -socket 50874
+Design successfully loaded
+Design Loading Memory Usage: 27524 KB (Peak: 27524 KB)
+Design Loading CPU Usage: 109 ms
+Simulation completed
+Simulation Memory Usage: 28624 KB (Peak: 28624 KB)
+Simulation CPU Usage: 124 ms

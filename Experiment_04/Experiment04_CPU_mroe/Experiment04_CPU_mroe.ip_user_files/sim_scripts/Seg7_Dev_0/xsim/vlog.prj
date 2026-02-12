@@ -1,0 +1,10 @@
+verilog xil_defaultlib  \
+"../../../../Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/DisplaySync.v" \
+"../../../../Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/MC_14495.v" \
+"../../../../Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev.v" \
+"../../../../Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/sim/Seg7_Dev_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

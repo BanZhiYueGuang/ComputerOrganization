@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1758792753">
+  <File Type="PA-TCL" Name="Expr01_muxctrl.tcl"/>
+  <File Type="REPORTS-TCL" Name="Expr01_muxctrl_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Expr01_muxctrl_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Expr01_muxctrl_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Expr01_muxctrl_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Expr01_muxctrl_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Expr01_muxctrl.hwdef"/>
+  <File Type="OPT-TIMING" Name="Expr01_muxctrl_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="Expr01_muxctrl_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="Expr01_muxctrl_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Expr01_muxctrl_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Expr01_muxctrl_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Expr01_muxctrl_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Expr01_muxctrl_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Expr01_muxctrl_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Expr01_muxctrl_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Expr01_muxctrl_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Expr01_muxctrl_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Expr01_muxctrl_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Expr01_muxctrl_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Expr01_muxctrl_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="Expr01_muxctrl_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Expr01_muxctrl_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Expr01_muxctrl_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Expr01_muxctrl_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Expr01_muxctrl_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Expr01_muxctrl_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Expr01_muxctrl_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Expr01_muxctrl_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Expr01_muxctrl_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Expr01_muxctrl_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Expr01_muxctrl_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Expr01_muxctrl_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Expr01_muxctrl_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Expr01_muxctrl_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Expr01_muxctrl_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Expr01_muxctrl_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Expr01_muxctrl_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Expr01_muxctrl_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Expr01_muxctrl_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Expr01_muxctrl_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Expr01_muxctrl_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Expr01_muxctrl_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Expr01_muxctrl_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Expr01_muxctrl_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Expr01_muxctrl_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Expr01_muxctrl_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Expr01_muxctrl_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Expr01_muxctrl_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="Expr01_muxctrl_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Expr01_muxctrl_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Expr01_muxctrl_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Expr01_muxctrl_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Expr01_muxctrl_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Expr01_muxctrl_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Expr01_muxctrl_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Expr01_muxctrl_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Expr01_muxctrl_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Expr01_muxctrl.bit"/>
+  <File Type="BG-BIN" Name="Expr01_muxctrl.bin"/>
+  <File Type="BITSTR-MSK" Name="Expr01_muxctrl.msk"/>
+  <File Type="BITSTR-RBT" Name="Expr01_muxctrl.rbt"/>
+  <File Type="BITSTR-NKY" Name="Expr01_muxctrl.nky"/>
+  <File Type="BITSTR-BMM" Name="Expr01_muxctrl_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Expr01_muxctrl.mmi"/>
+  <File Type="PDI-FILE" Name="Expr01_muxctrl.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Expr01_muxctrl_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Expr01_muxctrl_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Expr01_muxctrl.rcfi"/>
+  <File Type="CFI_FILE" Name="Expr01_muxctrl.cfi"/>
+  <File Type="RNPI_FILE" Name="Expr01_muxctrl.rnpi"/>
+  <File Type="NPI_FILE" Name="Expr01_muxctrl.npi"/>
+  <File Type="RBD_FILE" Name="Expr01_muxctrl.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Expr01_muxctrl.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Expr01_muxctrl.sysdef"/>
+  <File Type="BG-BGN" Name="Expr01_muxctrl.bgn"/>
+  <File Type="BG-DRC" Name="Expr01_muxctrl.drc"/>
+  <File Type="RDI-RDI" Name="Expr01_muxctrl.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Expr01_muxctrl_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Expr01_muxctrl_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Concat.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Constant_1b1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Constant_5b0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Constant_5b1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Constant_8b1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX2T1_5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX4T1_5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX8T1_32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slice.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slice_8T5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Expr01_muxctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Expr01_muxctrl"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/muxctrl.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Expr01_muxctrl.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

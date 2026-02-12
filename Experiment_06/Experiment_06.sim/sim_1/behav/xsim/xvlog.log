@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxData/ComputerOrganization/Experiment_06/Experiment_06.srcs/sources_1/new/Cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxData/ComputerOrganization/Experiment_06/Experiment_06.srcs/sources_1/new/Data_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_RAM0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxData/ComputerOrganization/Experiment_06/Experiment_06.srcs/sources_1/new/Data_RAM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_RAM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxData/ComputerOrganization/Experiment_06/Experiment_06.srcs/sources_1/new/Tag_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tag_RAM0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxData/ComputerOrganization/Experiment_06/Experiment_06.srcs/sources_1/new/Tag_RAM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tag_RAM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxData/ComputerOrganization/Experiment_06/Experiment_06.srcs/sim_1/new/Cache_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cache_testbench

@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sim_1/new/ALU_testbench.v,1759222444,verilog,,,,ALU_testbench,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/ADC_32.v,1759223337,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/new/ALU.v,,ADC_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/And32.v,1758531516,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/MUX8T1_32.v,,And_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/MUX8T1_32.v,1758793564,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Nor_32.v,,MUX8T1_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Nor_32.v,1758531625,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Or_32.v,,Nor_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Or_32.v,1758531574,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Or_bit_32.v,,Or_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Or_bit_32.v,1758532177,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/SignalExt_1T32.v,,Or_bit_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/SignalExt_1T32.v,1758532507,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Srl_32.v,,SignalExt_1T32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Srl_32.v,1758531910,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Xor_32.v,,Srl_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/Xor_32.v,1758531774,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sim_1/new/ALU_testbench.v,,Xor_32,,,,,,,,
+D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/new/ALU.v,1759222651,verilog,,D:/XilinxData/ComputerOrganization/Experiment_1/Expr01_ALU/Expr01_ALU.srcs/sources_1/imports/Expr01_ALU/And32.v,,ALU,,,,,,,,

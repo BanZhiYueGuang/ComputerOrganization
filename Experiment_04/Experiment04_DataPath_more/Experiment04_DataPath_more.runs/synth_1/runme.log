@@ -1,0 +1,290 @@
+
+*** Running vivado
+    with args -log DataPath_more.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DataPath_more.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Nov 18 17:49:58 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source DataPath_more.tcl -notrace
+Command: synth_design -top DataPath_more -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3424
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 847.133 ; gain = 478.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DataPath_more' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/DataPath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ImmGen.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ImmGen.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Add_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Add_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Add_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Add_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX2T1_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX2T1_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX4T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX4T1_32.v:1]
+INFO: [Synth 8-226] default block is never used [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX4T1_32.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4T1_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX4T1_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_32M32b' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Register_32M32b.v:23]
+WARNING: [Synth 8-324] index 0 out of range [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Register_32M32b.v:84]
+INFO: [Synth 8-6155] done synthesizing module 'Register_32M32b' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Register_32M32b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SignalExt_1T32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/SignalExt_1T32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SignalExt_1T32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/SignalExt_1T32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Xor_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Xor_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Xor_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Xor_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ADC_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ADC_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ADC_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ADC_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'And_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/And32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'And_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/And32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Or_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Or_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Or_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Or_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Nor_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Nor_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Nor_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Nor_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Srl_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Srl_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Srl_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Srl_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX8T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX8T1_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8T1_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/MUX8T1_32.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'S' does not match port width (3) of module 'MUX8T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ALU.v:90]
+INFO: [Synth 8-6157] synthesizing module 'Or_bit_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Or_bit_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Or_bit_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/Or_bit_32.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'A' does not match port width (22) of module 'Or_bit_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ALU.v:105]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/REG_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/REG_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath_more' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/DataPath.v:23]
+WARNING: [Synth 8-7129] Port B[31] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[30] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[29] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[28] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[27] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[26] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[25] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[24] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[23] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[22] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[21] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[20] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[19] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[18] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[17] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[16] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[15] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[14] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[13] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[12] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[11] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[10] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[9] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[8] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[7] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[6] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[5] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port operation[3] in module ALU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[6] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[5] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[4] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[3] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[2] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[1] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[0] in module ImmGen is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 954.816 ; gain = 586.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 954.816 ; gain = 586.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 954.816 ; gain = 586.465
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'Imm_out_reg' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/DataPath/ImmGen.v:31]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 954.816 ; gain = 586.465
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 31    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port inst_field[6] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[5] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[4] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[3] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[2] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[1] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[0] in module DataPath_more is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_Control[3] in module DataPath_more is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:47 . Memory (MB): peak = 1248.523 ; gain = 880.172
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:48 . Memory (MB): peak = 1257.277 ; gain = 888.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:49 . Memory (MB): peak = 1257.277 ; gain = 888.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    25|
+|3     |LUT1   |     2|
+|4     |LUT2   |    65|
+|5     |LUT3   |    37|
+|6     |LUT4   |    16|
+|7     |LUT5   |   143|
+|8     |LUT6   |   724|
+|9     |MUXF7  |   257|
+|10    |MUXF8  |     6|
+|11    |FDCE   |  1024|
+|12    |LD     |    32|
+|13    |IBUF   |    73|
+|14    |OBUF   |  1120|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+----------------+------+
+|      |Instance     |Module          |Cells |
++------+-------------+----------------+------+
+|1     |top          |                |  3526|
+|2     |  ALU_0      |ALU             |    32|
+|3     |    ADC_32_0 |ADC_32          |    32|
+|4     |  Add_32_0   |Add_32          |     8|
+|5     |  Add_32_1   |Add_32_0        |     8|
+|6     |  ImmGen_0   |ImmGen          |    93|
+|7     |  PC         |REG_32          |    68|
+|8     |  Regs_0     |Register_32M32b |  2121|
++------+-------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:53 . Memory (MB): peak = 1355.387 ; gain = 987.035
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1370.395 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1488.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE: 32 instances
+
+Synth Design complete | Checksum: acbc8f50
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 48 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:56 . Memory (MB): peak = 1488.270 ; gain = 1120.910
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1488.270 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_more/Experiment04_DataPath_more.runs/synth_1/DataPath_more.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file DataPath_more_utilization_synth.rpt -pb DataPath_more_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 18 17:51:08 2025...

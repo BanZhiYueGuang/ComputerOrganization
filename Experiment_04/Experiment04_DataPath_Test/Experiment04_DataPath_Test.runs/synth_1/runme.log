@@ -1,0 +1,580 @@
+
+*** Running vivado
+    with args -log CSSTE.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Nov  7 15:22:50 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source CSSTE.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Seg7_Dev'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.cache/ip 
+Command: read_checkpoint -auto_incremental -incremental D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.srcs/utils_1/imports/synth_1/CSSTE.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.srcs/utils_1/imports/synth_1/CSSTE.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top CSSTE -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 34440
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1056.523 ; gain = 469.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'U7_led_sout', assumed default net type 'wire' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:249]
+INFO: [Synth 8-6157] synthesizing module 'CSSTE' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:45]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/SAnti_jitter.v:15]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/clk_div.v:15]
+INFO: [Synth 8-638] synthesizing module 'ROM_D_0' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/ROM_D_0/synth/ROM_D_0.vhd:69]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 1024 - type: integer 
+	Parameter C_HAS_CLK bound to: 1 - type: integer 
+	Parameter C_HAS_D bound to: 1 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 1 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: ROM_D_0.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 32 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_15' declared at 'd:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/ROM_D_0/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3191' bound to instance 'U0' of component 'dist_mem_gen_v8_0_15' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/ROM_D_0/synth/ROM_D_0.vhd:135]
+INFO: [Synth 8-256] done synthesizing module 'ROM_D_0' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/ROM_D_0/synth/ROM_D_0.vhd:69]
+WARNING: [Synth 8-7071] port 'd' of module 'ROM_D_0' is unconnected for instance 'U2' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:135]
+WARNING: [Synth 8-7071] port 'clk' of module 'ROM_D_0' is unconnected for instance 'U2' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:135]
+WARNING: [Synth 8-7071] port 'we' of module 'ROM_D_0' is unconnected for instance 'U2' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:135]
+WARNING: [Synth 8-7023] instance 'U2' of module 'ROM_D_0' has 5 connections declared, but only 2 given [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:135]
+INFO: [Synth 8-6157] synthesizing module 'SCPU' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/SCPU/SCPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SCPU_ctrl' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/SCPU/SCPU_ctrl.v:15]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/DataPath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ImmGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Add_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Add_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Add_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Add_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX2T1_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX2T1_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX4T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX4T1_32.v:1]
+INFO: [Synth 8-226] default block is never used [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX4T1_32.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4T1_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX4T1_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_32M32b' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Register_32M32b.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Register_32M32b' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Register_32M32b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SignalExt_1T32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/SignalExt_1T32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SignalExt_1T32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/SignalExt_1T32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Xor_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Xor_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Xor_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Xor_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ADC_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ADC_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ADC_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ADC_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'And_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/And32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'And_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/And32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Or_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Or_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Or_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Or_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Nor_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Nor_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Nor_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Nor_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Srl_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Srl_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Srl_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Srl_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX8T1_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX8T1_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8T1_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/MUX8T1_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Or_bit_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Or_bit_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Or_bit_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/Or_bit_32.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'A' does not match port width (22) of module 'Or_bit_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ALU.v:105]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG_32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/REG_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG_32' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/REG_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/DataPath/DataPath.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SCPU' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/SCPU/SCPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/RAM_B.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Counter_x.v:15]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/MIO_BUS.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Multi_8CH32.v:15]
+INFO: [Synth 8-6157] synthesizing module 'VGA' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VGA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VgaController' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaController.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'VgaController' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaController.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VgaDisplay' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaDisplay.v:23]
+INFO: [Synth 8-3876] $readmem data file 'D://XilinxData//ComputerOrganization//Experiment_04//Experiment04_DataPath_Test//OExp02-IP2SOCReferrence//vga_debugger.mem' is read successfully [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaDisplay.v:37]
+INFO: [Synth 8-3876] $readmem data file 'D://XilinxData//ComputerOrganization//Experiment_04//Experiment04_DataPath_Test//OExp02-IP2SOCReferrence//font_8x16.mem' is read successfully [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaDisplay.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'VgaDisplay' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaDisplay.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VgaDebugger' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaDebugger.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Hex2Ascii' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/Hex2Ascii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Hex2Ascii' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/Hex2Ascii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'VgaDebugger' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VgaDebugger.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'VGA' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/VGA/VGA.srcs/sources_1/new/VGA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SPIO' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/SPIO.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev_0' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/synth/Seg7_Dev_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dispsync' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/DisplaySync.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dispsync' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/DisplaySync.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MC_14495' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/MC_14495.v:23]
+INFO: [Synth 8-6157] synthesizing module 'INV' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:80313]
+INFO: [Synth 8-6155] done synthesizing module 'INV' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:80313]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1573]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1573]
+INFO: [Synth 8-6157] synthesizing module 'OR4' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103397]
+INFO: [Synth 8-6155] done synthesizing module 'OR4' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103397]
+INFO: [Synth 8-6157] synthesizing module 'AND3' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1525]
+INFO: [Synth 8-6155] done synthesizing module 'AND3' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1525]
+INFO: [Synth 8-6157] synthesizing module 'OR3' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103349]
+INFO: [Synth 8-6155] done synthesizing module 'OR3' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103349]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1477]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1477]
+INFO: [Synth 8-6157] synthesizing module 'OR2' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103303]
+INFO: [Synth 8-6155] done synthesizing module 'OR2' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103303]
+INFO: [Synth 8-6155] done synthesizing module 'MC_14495' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/MC_14495.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev_0' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.gen/sources_1/ip/Seg7_Dev_0/synth/Seg7_Dev_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'CSSTE' (0#1) [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/CSSTE.v:45]
+WARNING: [Synth 8-7129] Port B[31] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[30] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[29] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[28] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[27] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[26] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[25] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[24] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[23] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[22] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[21] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[20] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[19] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[18] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[17] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[16] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[15] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[14] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[13] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[12] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[11] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[10] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[9] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[8] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[7] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[6] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[5] in module Srl_32 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[6] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[5] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[4] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[3] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[2] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[1] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[0] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[31] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[30] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[29] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[28] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[27] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[26] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[25] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[24] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[23] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[22] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[21] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[20] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[19] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[18] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[17] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[16] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[15] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[14] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[13] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[12] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[11] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[10] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[9] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[8] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[7] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[6] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[5] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[4] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[3] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[2] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[1] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo[0] in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_ce in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo_ce in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo_rst in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port qspo_srst in module spram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[31] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[30] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[29] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[28] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[27] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[26] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[25] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[24] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[23] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[22] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[21] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[20] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[19] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[18] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[17] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[16] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[15] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[14] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[13] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[12] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[11] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[10] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[9] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[8] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[7] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[6] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[5] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[4] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[3] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpo[2] in module dist_mem_gen_v8_0_15_synth is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1180.082 ; gain = 593.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1180.082 ; gain = 593.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1180.082 ; gain = 593.359
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1180.082 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/A7.xdc]
+Finished Parsing XDC File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/A7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/A7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CSSTE_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CSSTE_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1268.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  AND3 => LUT3: 11 instances
+  AND4 => LUT4: 9 instances
+  INV => LUT1: 5 instances
+  OR2 => LUT2: 7 instances
+  OR3 => LUT3: 3 instances
+  OR4 => LUT4: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1268.461 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1268.461 ; gain = 681.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1268.461 ; gain = 681.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U6. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U2. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1268.461 ; gain = 681.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1268.461 ; gain = 681.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 1     
+	   3 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 31    
+	   8 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "CSSTE/U11/vga_display/display_data_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "CSSTE/U11/vga_display/display_data_reg",trying to implement using LUTRAM
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:39 . Memory (MB): peak = 1361.660 ; gain = 774.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|VgaDisplay  | fonts_data | 4096x8        | LUT            | 
+|CSSTE       | p_0_out    | 4096x8        | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+-----------------------------------------------------------+-----------+----------------------+------------------+
+|Module Name | RTL Object                                                | Inference | Size (Depth x Width) | Primitives       | 
++------------+-----------------------------------------------------------+-----------+----------------------+------------------+
+|U2/U0       | synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg | Implied   | 1 K x 32             | RAM256X1S x 128  | 
+|CSSTE       | U11/vga_display/display_data_reg                          | Implied   | 4 K x 8              | RAM64M x 192     | 
++------------+-----------------------------------------------------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:42 . Memory (MB): peak = 1379.426 ; gain = 792.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:44 . Memory (MB): peak = 1382.605 ; gain = 795.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+-----------------------------------------------------------+-----------+----------------------+------------------+
+|Module Name | RTL Object                                                | Inference | Size (Depth x Width) | Primitives       | 
++------------+-----------------------------------------------------------+-----------+----------------------+------------------+
+|U2/U0       | synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg | Implied   | 1 K x 32             | RAM256X1S x 128  | 
+|CSSTE       | U11/vga_display/display_data_reg                          | Implied   | 4 K x 8              | RAM64M x 192     | 
++------------+-----------------------------------------------------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:46 . Memory (MB): peak = 1445.863 ; gain = 859.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SAnti_jitter  |         1|
+|2     |clk_div       |         1|
+|3     |RAM_B         |         1|
+|4     |Counter_x     |         1|
+|5     |MIO_BUS       |         1|
+|6     |Multi_8CH32   |         1|
+|7     |SPIO          |         1|
+|8     |SCPU_ctrl     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |Counter_x_bbox    |     1|
+|2     |MIO_BUS_bbox      |     1|
+|3     |Multi_8CH32_bbox  |     1|
+|4     |RAM_B_bbox        |     1|
+|5     |SAnti_jitter_bbox |     1|
+|6     |SCPU_ctrl_bbox    |     1|
+|7     |SPIO_bbox         |     1|
+|8     |clk_div_bbox      |     1|
+|9     |AND2              |     1|
+|10    |AND3              |    11|
+|11    |AND4              |     9|
+|12    |BUFG              |     1|
+|13    |CARRY4            |    44|
+|14    |INV               |     5|
+|15    |LUT1              |     7|
+|16    |LUT2              |   196|
+|17    |LUT3              |    92|
+|18    |LUT4              |    81|
+|19    |LUT5              |   333|
+|20    |LUT6              |  1593|
+|21    |MUXF7             |   472|
+|22    |MUXF8             |    89|
+|23    |OR2               |     7|
+|24    |OR3               |     3|
+|25    |OR4               |     4|
+|26    |RAM256X1S         |    26|
+|27    |RAM64M            |   128|
+|28    |RAM64X1D          |    62|
+|29    |FDCE              |  1024|
+|30    |FDRE              |    68|
+|31    |FDSE              |     2|
+|32    |IBUF              |    22|
+|33    |OBUF              |    46|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 117 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:47 . Memory (MB): peak = 1599.828 ; gain = 924.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 1599.828 ; gain = 1013.105
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/SAnti_jitter.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/SAnti_jitter.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/clk_div.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/clk_div.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/RAM_B.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/RAM_B.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Counter_x.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Counter_x.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/MIO_BUS.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/MIO_BUS.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Multi_8CH32.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/Multi_8CH32.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/SPIO.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/OExp02-IP2SOCReferrence/IP/SPIO.edf]
+Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/SCPU/SCPU_ctrl.edf]
+Finished Parsing EDIF File [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/SCPU/SCPU_ctrl.edf]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1614.586 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 960 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1622.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 256 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  AND3 => LUT3: 11 instances
+  AND4 => LUT4: 9 instances
+  INV => LUT1: 5 instances
+  OR2 => LUT2: 7 instances
+  OR3 => LUT3: 3 instances
+  OR4 => LUT4: 4 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 26 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 62 instances
+
+Synth Design complete | Checksum: db58f8cc
+INFO: [Common 17-83] Releasing license: Synthesis
+113 Infos, 109 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:52 . Memory (MB): peak = 1622.223 ; gain = 1242.555
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1622.223 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_DataPath_Test/Experiment04_DataPath_Test.runs/synth_1/CSSTE.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file CSSTE_utilization_synth.rpt -pb CSSTE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  7 15:23:46 2025...

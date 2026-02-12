@@ -1,0 +1,7 @@
+Running: xsim.dir/SCPU_ctrl_testbench_behav/xsimk.exe -simmode gui -wdb SCPU_ctrl_testbench_behav.wdb -simrunnum 0 -socket 53754
+Design successfully loaded
+Design Loading Memory Usage: 28284 KB (Peak: 28284 KB)
+Design Loading CPU Usage: 265 ms
+Simulation completed
+Simulation Memory Usage: 29208 KB (Peak: 29208 KB)
+Simulation CPU Usage: 265 ms

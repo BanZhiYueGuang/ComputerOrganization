@@ -1,0 +1,49 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2025/09/21 18:39:53
+// Design Name: 
+// Module Name: MUX2T1_5_TB
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module MUX2T1_5_TB(
+
+    );
+    reg [4:0] I0;
+    reg [4:0] I1;
+    reg s;
+    wire [4:0] o;
+    
+    MUX2T1_5 MUX2T1_5_UUT(.I0(I0),.I1(I1),.s(s),.o(o));
+    
+    initial begin
+        I0 = 5'b00000;
+        I1 = 5'b00011;
+        s = 0;
+        #100
+        s = 1;
+        #100
+        s = 0;
+        #100
+        I0 = 5'b01100;
+        I1 = 5'b00101;
+        s = 0;
+        #100
+        s = 1;
+    end
+    
+endmodule

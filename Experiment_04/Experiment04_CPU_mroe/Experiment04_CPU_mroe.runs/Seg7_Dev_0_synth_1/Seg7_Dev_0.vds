@@ -1,0 +1,239 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Nov 20 16:59:38 2025
+# Process ID         : 30140
+# Current directory  : D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.runs/Seg7_Dev_0_synth_1
+# Command line       : vivado.exe -log Seg7_Dev_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg7_Dev_0.tcl
+# Log file           : D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.runs/Seg7_Dev_0_synth_1/Seg7_Dev_0.vds
+# Journal file       : D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.runs/Seg7_Dev_0_synth_1\vivado.jou
+# Running On         : LAPTOP-6I7OJEUU
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13980HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 16779 MB
+# Swap memory        : 4402 MB
+# Total Virtual      : 21182 MB
+# Available Virtual  : 5834 MB
+#-----------------------------------------------------------
+source Seg7_Dev_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/OExp02-IP2SOCReferrence/IP/Seg7_Dev'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Seg7_Dev_0
+Command: synth_design -top Seg7_Dev_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30348
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 857.953 ; gain = 473.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev_0' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/synth/Seg7_Dev_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dispsync' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/DisplaySync.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dispsync' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/DisplaySync.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MC_14495' [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/MC_14495.v:23]
+INFO: [Synth 8-6157] synthesizing module 'INV' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:80313]
+INFO: [Synth 8-6155] done synthesizing module 'INV' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:80313]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1573]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1573]
+INFO: [Synth 8-6157] synthesizing module 'OR4' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103397]
+INFO: [Synth 8-6155] done synthesizing module 'OR4' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103397]
+INFO: [Synth 8-6157] synthesizing module 'AND3' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1525]
+INFO: [Synth 8-6155] done synthesizing module 'AND3' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1525]
+INFO: [Synth 8-6157] synthesizing module 'OR3' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103349]
+INFO: [Synth 8-6155] done synthesizing module 'OR3' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103349]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1477]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:1477]
+INFO: [Synth 8-6157] synthesizing module 'OR2' [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103303]
+INFO: [Synth 8-6155] done synthesizing module 'OR2' (0#1) [D:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:103303]
+INFO: [Synth 8-6155] done synthesizing module 'MC_14495' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/MC_14495.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev_0' (0#1) [d:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.gen/sources_1/ip/Seg7_Dev_0/synth/Seg7_Dev_0.v:53]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 962.859 ; gain = 578.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 962.859 ; gain = 578.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 962.859 ; gain = 578.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 962.859 ; gain = 578.172
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input    8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 1152.406 ; gain = 767.719
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 1159.168 ; gain = 774.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 1159.168 ; gain = 774.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |AND2  |     1|
+|2     |AND3  |    11|
+|3     |AND4  |     9|
+|4     |INV   |     5|
+|5     |LUT3  |     8|
+|6     |LUT6  |    12|
+|7     |MUXF7 |     6|
+|8     |OR2   |     7|
+|9     |OR3   |     3|
+|10    |OR4   |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+---------+------+
+|      |Instance |Module   |Cells |
++------+---------+---------+------+
+|1     |top      |         |    66|
+|2     |  inst   |Seg7_Dev |    58|
+|3     |    U2   |MC_14495 |    58|
++------+---------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+Synthesis Optimization Complete : Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 1359.367 ; gain = 974.680
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1374.449 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1486.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  AND3 => LUT3: 11 instances
+  AND4 => LUT4: 9 instances
+  INV => LUT1: 5 instances
+  OR2 => LUT2: 7 instances
+  OR3 => LUT3: 3 instances
+  OR4 => LUT4: 4 instances
+
+Synth Design complete | Checksum: a05e33b
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1486.348 ; gain = 1107.922
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1789.332 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.runs/Seg7_Dev_0_synth_1/Seg7_Dev_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Seg7_Dev_0, cache-ID = 1a4c478692093372
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1789.488 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_CPU_mroe/Experiment04_CPU_mroe.runs/Seg7_Dev_0_synth_1/Seg7_Dev_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Seg7_Dev_0_utilization_synth.rpt -pb Seg7_Dev_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 20 17:00:12 2025...

@@ -1,0 +1,66 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_15 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CSSTE_testbench_behav xil_defaultlib.CSSTE_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 22 for port 'A' [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_SCPU_ctrl_Test/DataPath/ALU.v:105]
+WARNING: [VRFC 10-3705] select index 0 into 'register' is out of bounds [D:/XilinxData/ComputerOrganization/Experiment_04/Experiment04_SCPU_ctrl_Test/DataPath/Register_32M32b.v:84]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SAnti_jitter
+Compiling module xil_defaultlib.clk_div
+Compiling module dist_mem_gen_v8_0_15.dist_mem_gen_v8_0_15(C_FAMILY="a...
+Compiling module xil_defaultlib.ROM_D_0
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Register_32M32b
+Compiling module xil_defaultlib.SignalExt_1T32
+Compiling module xil_defaultlib.Xor_32
+Compiling module xil_defaultlib.ADC_32
+Compiling module xil_defaultlib.And_32
+Compiling module xil_defaultlib.Or_32
+Compiling module xil_defaultlib.Nor_32
+Compiling module xil_defaultlib.Srl_32
+Compiling module xil_defaultlib.MUX8T1_32
+Compiling module xil_defaultlib.Or_bit_32
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_32
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.Counter_x
+Compiling module xil_defaultlib.MIO_BUS
+Compiling module xil_defaultlib.Multi_8CH32
+Compiling module xil_defaultlib.VgaController
+Compiling module xil_defaultlib.VgaDisplay
+Compiling module xil_defaultlib.Hex2Ascii
+Compiling module xil_defaultlib.VgaDebugger
+Compiling module xil_defaultlib.VGA
+Compiling module xil_defaultlib.SPIO
+Compiling module xil_defaultlib.dispsync
+Compiling module unisims_ver.INV
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.OR4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.OR3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.OR2
+Compiling module xil_defaultlib.MC_14495
+Compiling module xil_defaultlib.Seg7_Dev
+Compiling module xil_defaultlib.Seg7_Dev_0
+Compiling module xil_defaultlib.CSSTE
+Compiling module xil_defaultlib.CSSTE_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CSSTE_testbench_behav

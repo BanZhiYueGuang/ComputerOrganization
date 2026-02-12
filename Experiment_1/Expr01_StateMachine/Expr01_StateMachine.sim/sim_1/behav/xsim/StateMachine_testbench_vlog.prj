@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Expr01_StateMachine.srcs/sources_1/new/StateMachine.v" \
+"../../../../Expr01_StateMachine.srcs/sim_1/new/StateMachine_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
